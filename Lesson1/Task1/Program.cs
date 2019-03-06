@@ -4,7 +4,7 @@ namespace Task1
 {
     class Program
     {
-        static double Check()
+        static int Check()
         {
             int checkedInput = 0;
             string input = Console.ReadLine();
@@ -19,7 +19,7 @@ namespace Task1
         }
         static void Main(string[] args)
         {
-            double x = 0, y = 0, z = 0;
+            int x = 0, y = 0, z = 0;
 
             Console.Write("Enter X: ");
             x = Check();

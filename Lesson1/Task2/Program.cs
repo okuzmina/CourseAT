@@ -4,7 +4,7 @@ namespace Task2
 {
     class Program
     {
-        static double Check()
+        static int Check()
         {
             int checkedInput = 0;
             string input = Console.ReadLine();
@@ -19,7 +19,7 @@ namespace Task2
         }
         static void Main(string[] args)
         {
-            double width = 0, height = 0, length = 0;
+            int width = 0, height = 0, length = 0;
 
             Console.Write("Enter width: ");
             width = Check();
