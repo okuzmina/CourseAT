@@ -4,7 +4,7 @@ namespace Calculator
 {
     class Program
     {
-        static double Check()
+        static int Check()
         {
             int checkedInput = 0;
             string input = Console.ReadLine();
@@ -19,7 +19,7 @@ namespace Calculator
         }
         static void Main(string[] args)
         {
-            double operand1 = 0, operand2 = 0;
+            int operand1 = 0, operand2 = 0;
 
             Console.Write("Enter first operand: ");
             operand1 = Check();
